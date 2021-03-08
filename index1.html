@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ===== CSS ===== -->
+
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/tema_card_general.css">
+        <link rel="stylesheet" href="css/card.css">
+        <link rel="stylesheet" href="css/footer.css">
+
+
+
+        <title>Index - Portal</title>
+    </head>
+    <body>
+        <!-- ===== HEADER DEL WEB ===== -->
+        <header class="header">
+            <a href="#" class="header__logo">Tío Apol</a>
+            <!-- ===== ICONO MAXIMIZAR ===== -->
+            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon> 
+
+            <!-- ===== COMIENZO DEL NAV ===== -->
+
+            <nav class="nav" id="nav-menu">
+                <div class="nav__content bd-grid">
+                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+                    <div class="nav__perfil">
+                        <div class="nav__img">
+                            <img src="assets/img/perfil.png" alt="">
+                        </div>
+                        
+                        <!-- ===== TIO APOL ===== -->
+
+                        <div>
+                            <a href="#" class="nav__name">Tío Apol</a>
+                            <span class="nav__profesion">Ing Estadistico - Politecnico</span>
+                        </div>
+                    </div>
+                    
+                    <!-- ===== TEMAS HOME PAGE ===== -->
+
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#" class="nav__link active">Curso</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Cuenta</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Cerrar Sesion</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- ===== ICONOS DEL NAV PARA LAS REDES SOCIALES===== -->
+
+                    <div class="nav__social">
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-youtube"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="laptop-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- ===== CONTENIDO PORTAL ===== -->
+        <div class="container">
+            <div class="inicio_login">
+                <div class="banner">
+                    <img src="img/apol_login_4.jpg" alt="">
+                </div>
+                <div class="login">
+                    <div class="login_encabezado">
+                        <h2 class="texto">¿Tienes Cuenta?</h3>
+                        <h2 class="texto">¡Logueate!</h3>
+                        </div>
+                        <div class="login_form">
+                    <form action="">
+                        <input id="user-name" name="user-name" placeholder="Correo Electronico" type="text" />
+                        <input id="password" name="password" placeholder="Contraseña" type="password" />
+                    </form>
+                </div>
+                        <div class="myButton">Entrar</div>
+                        <div class="texto login_form">
+                          <a href="#">¿Olvidaste tu contraseña?</a>
+                      </div>
+                </div>
+            </div>
+
+            <div class="contenido_preview">
+                <div class="dashboard_izquierda">
+                    <!-- ===== APOL INFORMACION ===== -->
+                   
+                       <div class="encabezado_dashboard">
+                           <h3 class="texto">Dashboard</h3>
+                       </div>
+                   <div class="items">
+                       <h4 class="texto items"> <span class="icons"><i class="fas fa-brain"></i></span>¿Qué es Apol?</h4>
+                       <h4 class="texto items"><span class="parpadea"><i class="fas fa-video"></i></span>En vivo</h4>
+                       <h4 class="texto items"> <span class="icons"><i class="fas fa-tv"></i></span>Nuestros Cursos</h4>
+                   </div>
+                   
+               </div>
+               <!-- ===== DIV 2/3 DASHBOARD DERECHO ===== -->
+               <div class="dashboard_derecha">
+                   <!-- ===== DIV BUSCADOR ===== -->
+                   <div class="buscador">
+                   <h3 class="texto bold encabezado_buscador">¿Quieres pasar el Pre Politecnico?</h3>
+                   <h4 class="texto bold encabezado_buscador">Más de 200 videos, todo el material para que pases tu prepo</h4>
+                       <div class="login_form">
+                           <div class="buscador">
+                           <form action="index.html" method="post">
+                               <input id="user-name" name="user-name" placeholder="¡Busca aqui los videos!" type="text" />
+                           </form>
+                       </div>
+                           <div class="myButton">Buscar<span class="icons_buscador"><i class="fas fa-search"></i></span></div>
+                        </div>
+                   </div>
+
+                   <div class="general">
+                    <div class="tema_card_gen">
+                        <div class="card_gen basico">
+                            <h6 class="categoria">Basico</h6>
+                            <h3 class="tema">Lógica Matematica</h2>
+                            <h7 class="mirar_sub_tem">Mira todos los subtemas <i class="fas fa-chevron-right"></i></h1>
+                        </div>
+                    </div>
+        
+                    <div class="tema_card_gen">
+                        <div class="card_gen fundamento">
+                            <h6 class="categoria">fundamento</h6>
+                            <h3 class="tema">Factorización y Funciones</h2>
+                            <h7 class="mirar_sub_tem">Mira todos los subtemas <i class="fas fa-chevron-right"></i></h1>
+                        </div>
+                    </div>
+        
+                    <div class="tema_card_gen">
+                        <div class="card_gen intermedio">
+                            <h6 class="categoria">INTERMEDIO</h6>
+                            <h3 class="tema">Geometria Analitica</h2>
+                            <h7 class="mirar_sub_tem">Mira todos los subtemas <i class="fas fa-chevron-right"></i></h1>
+                        </div>
+                    </div>
+        
+                    <div class="tema_card_gen">
+                        <div class="card_gen avanzado">
+                            <h6 class="categoria">Avanzado</h6>
+                            <h3 class="tema">Vectores y Espacio</h2>
+                            <h7 class="mirar_sub_tem">Mira todos los subtemas <i class="fas fa-chevron-right"></i></h1>
+                        </div>
+                    </div>
+        
+                    <div class="tema_card_gen">
+                        <div class="card_gen complementario">
+                            <h6 class="categoria">Complementario</h6>
+                            <h3 class="tema">Ecuaciones Lineales</h2>
+                            <h7 class="mirar_sub_tem">Mira todos los subtemas <i class="fas fa-chevron-right"></i></h1>
+                        </div>
+                    </div>
+        
+                    <div class="tema_card_gen">
+                        <div class="card_gen pepa">
+                            <h6 class="categoria">Ejercicios</h6>
+                            <h3 class="tema">Ejercicios Complementario</h2>
+                            <h7 class="mirar_sub_tem">Mira todos los subtemas <i class="fas fa-chevron-right"></i></h1>
+                        </div>
+                    </div>
+                </div>
+                   <!-- ===== DIV CATEGORIA ===== -->
+                   <!-- ===== DIV CARD_CURSO_GENERAL ===== --> 
+               
+                   </div>
+               
+            </div>
+           
+        </div>
+
+        <footer class="footer">
+            <div class="container_footer">
+                <div class="display">
+                    <div class="footer-col">
+                        <h4>APOL</h4>
+                        <ul>
+                            <li><a href="#">Nosotros</a></li>
+                            <li><a href="#">¿Quienes Somos?</a></li>
+                            <li><a href="#">Contactanos</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>MATRIZ</h4>
+                        <ul>
+                            <li><a href="#">Cdla. Albatros, Pelicano Oeste 105 y Av. Plaza Dañín</a></li>
+                            <li><a href="#">2397571- 6029717 - 2399906</a></li>
+                            <li><a href="#">08H00 A 19H00</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Redes</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+
+        <!-- ===== ICONOS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        <script src="https://kit.fontawesome.com/4cbd530a7a.js" crossorigin="anonymous"></script>
+        <!--===== CSS PARA EL HEADER =====-->
+        <script src="js/main.js"></script>
+    </body>
+</html>

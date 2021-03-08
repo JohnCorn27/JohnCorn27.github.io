@@ -1,0 +1,127 @@
+.card_curso{
+    background-color: #d9dbe0;
+    border-radius: 10px;
+    display: flex;
+    margin: 5px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.tema_card{
+	color: #fff;
+    padding: 30px;
+    min-width: 40%;
+
+}
+
+.categoria{
+    opacity: 0.8;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    
+}
+
+.tema{
+    letter-spacing: 1px;
+	margin: 5px 0;
+}
+
+.mirar_sub_tem{
+    color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	opacity: 0.;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.descrip_card{
+	padding: 20px;
+	position: relative;
+	width: 100%;
+    display: flex;
+}
+
+.video-lista-card{
+    font-size: 15px;
+    padding: 10px;
+	position: relative;
+    width: 100%;
+    list-style:none;
+    
+}
+
+.video-item{
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+
+}
+
+.portada-video{
+    width: 20%;
+    height: 100px;
+    padding: 1px;
+    background-color:rgb(255, 255, 255);
+}
+
+.portada-descrip{
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.portada{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.play{
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 950px){
+    .card_curso{
+        background-color: #d9dbe0;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .portada-video{
+     display: none;
+    }
+
+}
+
+.basico{
+    background-color: #06d6a0;
+}
+
+.fundamento{
+    background-color: #118ab2;
+}
+
+.intermedio{
+    background-color: #ffd166;
+}
+
+.avanzado{
+    background-color: #073b4c;
+}
+
+.complementario{
+    background-color: #2b2d42;
+}
+
+.pepa{
+    background-color: #4d2222;
+}
